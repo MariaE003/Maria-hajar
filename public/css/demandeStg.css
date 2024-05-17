@@ -1,0 +1,67 @@
+main{
+        justify-content:start;
+        /* width: 100%; */
+        align-items:center;
+        background-size: cover;
+        height:90vh;
+        text-align: center;
+        background-color:	#E8E8E8;
+        padding-top:2rem;
+        padding-left:30%;
+    
+}
+main h2{
+    margin-left:-25rem;
+    margin-bottom:2em;
+}
+.section {
+    
+    width: 500px;
+    height: 580px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    
+    backdrop-filter: blur(50px);
+    opacity: 0.7;
+    font-weight: bold;
+    padding:3rem 0px;
+    padding-left:3em;
+
+
+   
+}
+
+input[type="text"],input[type="number"],
+input[type="date"] ,select {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+div .adressL,.dateNiasL,.etablissementL,.dateDL,.dateFL{
+  display:block;
+  margin-left:-3.4em;
+  margin-top:0.5em;
+}
+div .adress ,#dateNias,.etablissement,#dateD,#dateF{
+    /* padding:0px 5em; */
+    font-weight:bold;
+    width:22.7em;
+    margin-left:-3.4em;
+}
+
+#button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right:3em;
+}
+
+#button:hover {
+  background-color: #555;
+}

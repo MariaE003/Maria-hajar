@@ -1,0 +1,87 @@
+/* main section {
+margin: 10em;
+}
+main section div{
+    display: flex;
+    align-items: center;
+    
+}
+
+main section div div{
+    
+    width:30em ;
+    height: 30em;
+    background-image:url('/public/img_page/stg1.jpg');
+    background-image: linear-gradient(rgba(29, 38, 125,0.7), rgba(29, 38, 125,0.7)),url("/img_page/stg1.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(10em);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+} */
+
+main{
+    display: flex;
+    justify-content:end;
+    width: 100%;
+    align-items:center;
+    min-height: 100vh;
+    /* background: url('/public/img_page/stg1.jpg') no-repeat; */
+    /* background: url('image1/images\ \(25\).jpg') no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+main section{
+    display: flex;
+    align-items: center;
+}
+
+
+main section div{
+    position: relative;
+    width: 350px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+    margin: 7em;
+    margin-top: 3em;
+    margin-right: 18em;
+    background: url('/img_page/stg1.jpg') no-repeat;
+    backdrop-filter: blur(50px);
+    color:aliceblue;
+    opacity: 0.7;
+    font-weight: bold;
+    
+    
+
+}
+.button{
+    margin-top: 10em;
+}
+main section div:hover{
+    /* opacity: 0.7; */
+    opacity: 1;
+}
+.button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.button a:hover{
+    color: aliceblue;
+}
+
+.par{
+    display: block;
+    font-size: 20px;
+}
+

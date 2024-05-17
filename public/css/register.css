@@ -1,0 +1,73 @@
+main{
+    
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+/*  */
+/*  */
+/*  */
+/* .section1 div{
+    background-image:url('/img_page/undraw_login_re_4vu2.svg');
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-top-left-radius:4px ;
+    border-top-right-radius:4px ;
+} */
+.imgLogin{
+    width: 30em;
+    margin: 0px 5em;
+}
+.section2{
+    width:30em ;
+    height:40em ;
+    border-radius:10px ;
+    border: 2px solid rgba(255, 255, 255, .5);
+    padding:8px ;
+    margin: 8px;
+    margin-left: 8em;
+    background-color: rgb(222, 221, 221);
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+section div h1{
+    font-size: 28px;
+}
+form label{
+    display: block;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+form input,.role{
+    /* display: block; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20em;
+}
+/* input[type="submit"]{ */
+.btnSubmit{
+    background-color: #2634d5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.btnSubmit:hover {
+    background-color: #1189ea;
+  }
+
+  
+
+
+
+
+  

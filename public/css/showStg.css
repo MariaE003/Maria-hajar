@@ -1,0 +1,86 @@
+/* .animated-h1{
+    color:black ;
+    font-family: Arial, sans-serif;
+    font-size: 44px;
+    white-space: nowrap; Empêche le texte de revenir à la ligne
+    white-space: pre-line; Permet au texte de revenir à la ligne
+    display: inline-block;
+    overflow: hidden; Cache le texte qui déborde
+    width: 0; Largeur initiale de 0
+    animation: ecrit 4s steps(40) forwards; Animation de saisie (4 secondes)
+    margin-bottom: 1.5em;
+  }
+  @keyframes ecrit {
+    to { width: 100% } Largeur finale à 100%
+    }  */
+
+  /* .animated-h1 {
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    } */
+    .animated-h1 {
+        position: relative;
+        font-family: Impact, sans-serif;
+        font-size: 45px;
+        letter-spacing: 2px;
+        /* background: linear-gradient(90deg, #90ee90, #fff, #000); */
+        background: linear-gradient(90deg, #000, #60a3eb, #90ee90);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 10s infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+      }
+      @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+      }
+/*search  */
+.search{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+#width{
+    width:40em;
+    display:block;
+}
+.search input{
+    margin:10px;
+    text-align:center;
+}
+.section .div{
+    display:flex;
+    justify-content:space-evenly;
+    /* display:inline; */
+}
+
+.div .card{
+    border-radius:12px;
+}
+.hovercard:hover{
+    border-radius:0px;
+    box-shadow: 0 0 20px 5px rgba(23, 81, 196, 0.3) ;
+
+}
+
+.revien{
+  width:10em;
+}

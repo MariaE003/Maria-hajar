@@ -1,0 +1,272 @@
+/* acceuill  */
+
+.main{
+  width: 100%;
+  
+  padding-right:82em;
+  margin-left:-5.5em;
+  margin-top:-5.5em;
+  /* padding-top: 20em; */
+  
+  min-height: 100vh;
+  
+  /* background-image: linear-gradient(rgba(29, 38, 125,0.7), rgba(29, 38, 125,0.7)),url("/img_page/stg1.jpg"); */
+  /* background-image: linear-gradient(rgba(29, 38, 125,0.7), rgba(29, 38, 125,0.7)),url("/img_page/couvrir-depense-sante-effet-U.jpg"); */
+  /* background-image: url("/img_page/team-meeting-office.jpg"); */
+  background-image: linear-gradient(rgba(29, 38, 125,0.7), rgba(29, 38, 125,0.7)),url("/img_page/team-meeting-office.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-top-left-radius:4px ;
+  border-top-right-radius:4px ;
+    
+}
+
+.main_acc{
+    justify-content:start;
+    width: 100%;
+    align-items:center;
+    min-height: 200vh;
+    background-size: cover;
+    background-position: center;
+    padding:  5em;
+    padding-bottom: 5em;
+    text-align: center;
+    background-color:	#E8E8E8;
+    
+  }
+ /* .animated-h1{
+    color:black ;
+    font-family: Arial, sans-serif;
+    font-size: 44px;
+     white-space: nowrap; Empêche le texte de revenir à la ligne
+     white-space: pre-line;Permet au texte de revenir à la ligne
+    display: inline-block;
+    overflow: hidden; Cache le texte qui déborde
+    width: 0; Largeur initiale de 0
+    animation: ecrit 4s steps(40) forwards;Animation de saisie (4 secondes)
+    margin-bottom: 1.5em;
+  }
+  @keyframes ecrit {
+    to { width: 100% } Largeur finale à 100%
+    }  */
+
+/* .animated-h1 {
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }  */
+
+
+       /* q & r */
+
+        
+       body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .accordion-item {
+        border-bottom: 1px solid #ccc;
+      }
+      
+      .accordion-item-toggle {
+        display: none;
+      }
+      
+      .accordion-item-header {
+        background-color: #f4f4f4;
+        color: #333;
+        cursor: pointer;
+        display: block;
+        font-size: 18px;
+        padding: 15px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .accordion-item-header:hover {
+        background-color: #ddd;
+      }
+      
+      .accordion-item-content {
+        display: none;
+        padding: 15px;
+      }
+      
+      .accordion-item-toggle:checked + .accordion-item-header {
+        background-color: #ddd;
+      }
+      
+      .accordion-item-toggle:checked + .accordion-item-header + .accordion-item-content {
+        display: block;
+      }
+      
+      
+    /*  */
+     .animated-h1 {
+      /* margin-left:10em;.. */
+      text-align:center;
+      position: relative;
+      font-family: Impact, sans-serif;
+      font-size: 45px;
+      letter-spacing: 2px;
+      /* background: linear-gradient(90deg, #90ee90, #fff, #000); */
+      background: linear-gradient(90deg, #000, #60a3eb, #90ee90);
+      background-repeat: no-repeat;
+      background-size: 80%;
+      animation: animate 10s infinite;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    }
+    @keyframes animate {
+      0% {
+        background-position: -500%;
+      }
+      100% {
+        background-position: 500%;
+      }
+    }
+    
+  
+  /* imagination card acceull */
+  .subject {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 10em;
+  }
+  .divcard div:hover{
+    box-shadow: 0 0 20px 5px rgba(23, 81, 196, 0.3) ;
+  }
+p,
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  
+  .animation {
+    view-timeline: --subjectReveal block;
+    animation-timeline: --subjectReveal;
+  
+    animation-name: appear;
+    animation-range: entry 10% contain 25%;
+    animation-fill-mode: both;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  }
+  
+  @keyframes appear {
+    from {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+  }
+  
+.dashboard{
+  margin-top: -11em;
+  margin-right: -15em;
+  float: right;
+  border-radius: 8px;
+  width: 7em;
+}
+.login{
+    float: right;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    margin-top: -11em;
+    margin-right: -15em;
+    width: 7em;
+}
+.register{
+    float: right;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    margin-top: -7em;
+    margin-right: -15em;
+    width: 7em;
+}
+  
+
+/* modal */
+.buutonFeedback{
+  background-color:	#E8E8E8;
+  position: fixed; 
+  border-radius: 8px;
+  margin-top:-55em ; 
+  margin-left:800px;
+  width: 7em;
+  border:3px solid black;
+  font-weight:bold;
+  color:black;
+  }
+  .buutonFeedback:hover{
+    background: black;
+    color:antiquewhite;
+  }
+
+.modal-feedback {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.modal-header, .modal-footer {
+  border-bottom: none;
+  border-top: none;
+}
+.close {
+  float: right;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  border-radius: 7px;
+  padding: 7px;
+  color: blue;
+
+
+}
+/* Ajouter des styles pour les émojis */
+.emoji-rating {
+font-size: 1.5rem;
+cursor: pointer;
+}
+.emoji-rating:not(:last-child) {
+margin-right: 15px;
+}
+/* Cacher les inputs radio par défaut */
+/* .emoji-rating input[type="radio"] {
+display: none;
+} */
+/* Style pour l'emoji sélectionné */
+.emoji-rating input[type="radio"]:checked + label {
+transform: scale(1.3);
+}
+
+

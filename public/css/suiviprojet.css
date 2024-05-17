@@ -1,0 +1,108 @@
+main{
+    justify-content:start;
+    /* width: 100%; */
+    align-items:center;
+    background-size: cover;
+    height:99vh;
+    text-align: center;
+    background-color:	#E8E8E8;
+    padding-top:2rem;
+    padding-left:30%;
+
+}
+main h2{
+margin-left:-25rem;
+margin-bottom:0.5em;
+}
+.section {
+
+width: 500px;
+height: 700px;
+background: transparent;
+border: 2px solid rgba(255, 255, 255, .5);
+border-radius: 20px;
+box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+
+backdrop-filter: blur(50px);
+opacity: 0.7;
+font-weight: bold;
+padding:3rem 0px;
+padding-left:3em;
+
+
+
+}
+
+
+input[type="date"] ,input[type="text"],textarea{
+width: 100%;
+padding: 7px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+div .titreProjetL,.dateDebutL,.dateFinL,.statusL,.descriptionL{
+display:block;
+margin-left:-3.4em;
+margin-top:1em;
+}
+div .titreProjet,#dateDebut,#dateFin,#description{
+/* padding:0px 5em; */
+font-weight:bold;
+width:22.7em;
+margin-left:-3.4em;
+margin-top:1em;
+
+}
+
+#button {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-right:3em;
+}
+
+#button:hover {
+background-color: #555;
+}
+
+.radio input{
+    margin-top: 1.1em;
+    margin-left:-10em ;
+    padding: 0.3em;
+    /* margin-right:1em ; */
+}
+.label{
+    /* margin: 0 0.2em; */
+
+     margin-top: 0.9em;
+    /*margin-left:1em ; */
+    
+}
+
+
+/*  */
+.animated-h1 {
+    position: relative;
+    font-family: Impact, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    /* background: linear-gradient(90deg, #90ee90, #fff, #000); */
+    background: linear-gradient(90deg, #000, #60a3eb, #90ee90);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 10s infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+  /*  */
