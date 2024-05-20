@@ -110,3 +110,7 @@ main{
   }
 
 
+  .navbarCenter{
+    margin-right: 30em;
+    justify-content: center;
+}

@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="{{ asset('css/style.css')}}">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.css')}}">
         <link rel="stylesheet" href="{{asset('fontawesome-free-6.4.0-web/css/all.css')}}">
-    
+        
     </head>
     <body >
         
@@ -32,7 +32,7 @@
                 <span></span>
                 </button> -->
 
-                <div class=" h-25  p-2 shadow rounded-pill mt-4 ">
+                <div class=" h-25  p-2 shadow rounded-pill mt-4  navbarCenter">
                     <ul class="nav">
                         <li class="nav-item hover">
                             <a href="{{url('/')}}" class="mx-4 nav-link text-dark  ">Accuille</a>
@@ -40,23 +40,23 @@
                         <!-- //candidature -->
                         <!-- //feedback -->
                         @if (Auth::check())
-    @if (Auth::user()->role === 'Admin')
-        <li class="nav-item hover">
-            <a href="{{url('/espace_Admin')}}" class="mx-4 nav-link text-dark">Espace Admin</a>
-        </li>
-        <li class="nav-item hover d-none">
-            <a href="{{url('/espace_stagiaire')}}" class="mx-4 nav-link text-dark">Espace Stagiaire</a>
-        </li>
-    @else
-        <li class="nav-item hover d-none">
-            <a href="{{url('/espace_Admin')}}" class="mx-4 nav-link text-dark">Espace Admin</a>
-        </li>
-        <li class="nav-item hover ">
-            <a href="{{url('/espace_stagiaire')}}" class="mx-4 nav-link text-dark">Espace Stagiaire</a>
-        </li>
-    @endif
+                            @if (Auth::user()->role === 'Admin')
+                                <li class="nav-item hover">
+                                    <a href="{{url('/espace_Admin')}}" class="mx-4 nav-link text-dark">Espace Admin</a>
+                                </li>
+                                <li class="nav-item hover d-none">
+                                    <a href="{{url('/espace_stagiaire')}}" class="mx-4 nav-link text-dark">Espace Stagiaire</a>
+                                </li>
+                            @else
+                                <li class="nav-item hover d-none">
+                                    <a href="{{url('/espace_Admin')}}" class="mx-4 nav-link text-dark">Espace Admin</a>
+                                </li>
+                                <li class="nav-item hover ">
+                                    <a href="{{url('/espace_stagiaire')}}" class="mx-4 nav-link text-dark">Espace Stagiaire</a>
+                                </li>
+                            @endif
 
-@endif
+                        @endif
 
 
                         <li class="nav-item hover">                   
